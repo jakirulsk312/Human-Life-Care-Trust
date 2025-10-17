@@ -23,10 +23,11 @@ const allowedOrigins = [
   "http://localhost:8080",
   "http://localhost:3000",
   "http://localhost:5173",
-  "https://hlcct.vercel.app",
-  "https://hlcct.org"
-
+  "https://hlcct.org",
+  "http://www.hlcct.org",
+  "https://www.hlcct.org"
 ];
+
 
 app.use(cors({
   origin: (origin, callback) => {
